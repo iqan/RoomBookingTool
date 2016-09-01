@@ -1,0 +1,16 @@
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\TestApi1.Tests.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\TestApi1.Tests.pdb
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\TestApi1.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\System.Web.Http.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\TestApi1.pdb
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\System.Web.Http.xml
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\obj\Debug\TestApi1.Tests.csprojResolveAssemblyReference.cache
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\obj\Debug\TestApi1.Tests.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\obj\Debug\TestApi1.Tests.pdb
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\TestApi1.Tests.dll.config
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\EntityFramework.dll
+D:\Iqan\Dev\Projects\Internal\TestApi1.Tests\bin\Debug\EntityFramework.xml
