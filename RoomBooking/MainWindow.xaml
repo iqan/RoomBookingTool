@@ -9,7 +9,7 @@
         <TextBox x:Name="EmpName" HorizontalAlignment="Left" Height="23" Margin="176,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165"/>
         <Label Content="Room Number" HorizontalAlignment="Left" Margin="35,120,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="Room" HorizontalAlignment="Left" Height="23" Margin="176,120,0,0" VerticalAlignment="Top" Width="165" ItemsSource="{Binding}"/>
-        <Label Content="Start Date" HorizontalAlignment="Left" Margin="35,148,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date" HorizontalAlignment="Left" Margin="35,148,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="StartDate" HorizontalAlignment="Left" Margin="176,148,0,0" VerticalAlignment="Top" Width="165"/>
         <Label Content="Start Time" HorizontalAlignment="Left" Margin="33,176,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="StartTime" HorizontalAlignment="Left" Height="23" Margin="176,176,0,0" VerticalAlignment="Top" Width="165" ItemsSource="{Binding}"/>

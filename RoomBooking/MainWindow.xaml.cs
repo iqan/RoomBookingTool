@@ -9,6 +9,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Newtonsoft.Json.Linq;
 
 namespace RoomBooking
 {
@@ -17,7 +18,7 @@ namespace RoomBooking
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string actionUrl = @"http://localhost:20177";
+        private string actionUrl = @"http://iqansapi1.azurewebsites.net";
         public MainWindow()
         {
             InitializeComponent();
@@ -115,8 +116,26 @@ namespace RoomBooking
                             new KeyValuePair<string, string>("Subject", Subject.Text)
                         });
                         var result = client.PostAsync("api/RoomBooking/PostBookingNew", content).Result;
+
                         string resultContent = result.Content.ReadAsStringAsync().Result;
-                        MessageBox.Show(resultContent, "Error");
+                        if (result.StatusCode.ToString() == "Created")
+                        {
+                            var json = JObject.Parse(resultContent);
+
+                            BookingDetails b = new BookingDetails();
+                            b.EmpId.Text = json["EmpId"].ToObject<string>();
+                            b.BookingId.Text = json["BookingId"].ToObject<string>();
+                            b.Room.Text = json["RoomNumber"].ToObject<string>();
+                            b.StartDate.Text = json["StartDate"].ToObject<string>();
+                            b.StartTime.Text = json["StartTime"].ToObject<string>();
+                            b.EndTime.Text = json["EndTime"].ToObject<string>();
+                            b.EmpName.Text = json["EmpName"].ToObject<string>();
+                            b.BookingTime.Text = json["BookingTime"].ToObject<string>();
+                            b.Subject.Text = json["Subject"].ToObject<string>();
+                            b.Show();
+                        }
+                        else
+                            MessageBox.Show(resultContent, "Error");
                     }
                 }
             }

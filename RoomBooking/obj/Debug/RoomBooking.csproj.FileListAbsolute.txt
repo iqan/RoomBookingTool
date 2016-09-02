@@ -17,3 +17,5 @@ D:\Iqan\Dev\Projects\Internal\RoomBooking\bin\Debug\Newtonsoft.Json.xml
 D:\Iqan\Dev\Projects\Internal\RoomBooking\bin\Debug\System.Net.Http.Formatting.xml
 D:\Iqan\Dev\Projects\Internal\RoomBooking\obj\Debug\Bookings.baml
 D:\Iqan\Dev\Projects\Internal\RoomBooking\obj\Debug\Bookings.g.cs
+D:\Iqan\Dev\Projects\Internal\RoomBooking\obj\Debug\BookingDetails.baml
+D:\Iqan\Dev\Projects\Internal\RoomBooking\obj\Debug\BookingDetails.g.cs
